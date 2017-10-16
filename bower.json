@@ -1,0 +1,13 @@
+{
+  "name": "accc",
+  "authors": [
+    "riehlemm <riehlemm@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}

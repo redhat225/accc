@@ -1,0 +1,20 @@
+{
+    "name": "accc/red",
+    "description": "Own Classes Binding+others",
+    "authors": [
+        {
+            "name": "riehlemm",
+            "email": "riehlemm@gmail.com"
+        }
+    ],
+    "require": {
+        "zendframework/zendframework": "^2.5",
+        "swiftmailer/swiftmailer": "@stable",
+        "mailgun/mailgun-php": "^2.0",
+        "php-http/guzzle6-adapter": "^1.1",
+        "pda/pheanstalk": "^3.1"
+    },
+    "autoload" : {
+        "psr-4" : {"PollingEntity\\" : "PollingEntity","suiviClient\\" : "suiviClient" , "suiviAdmin\\" : "suiviAdmin"}
+    }
+}
